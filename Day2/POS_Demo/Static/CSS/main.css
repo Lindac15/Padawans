@@ -1,0 +1,23 @@
+body {
+    background-color: blue;
+}
+
+h2 {
+    color: brown;
+    border: 6px dashed blue;
+}
+
+h3 {
+    border: 6px solid gray;
+    text-decoration: dotted;
+}
+
+.third {
+    background-color: aquamarine;
+}
+
+#unique {
+    background-color: blueviolet;
+    font-weight: 600;
+    text-align: center;
+}
