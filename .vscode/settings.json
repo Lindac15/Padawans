@@ -1,0 +1,9 @@
+{
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"diffEditor.codeLens": false,
+	"editor.quickSuggestions": {
+		"strings": "inline"
+	}
+}
