@@ -21,7 +21,7 @@ ul {
     font-size: medium ;
 }
 
-nav {
+.navbar {
     list-style-type: none;
     display: flex;
     flex-direction: row;
