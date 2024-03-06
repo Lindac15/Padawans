@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e70619b204.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,79 +13,106 @@
 </head>
 
 <body>
+
     <!-- navbar -->
-    <nav class="topnav">
-        <div class="navbar"><a class="Navbar-brand" href="#">Groit's Theater</a>
-            <div class="navbar-list">
-                <ul>
-                    <li class="nav-item">
-                        <a href="#Home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Features" class="nav-link">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#OurActors" class="nav-link">Our Actors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Mission" class="nav-link">Mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav> <div class="topnav">
+        <div class="navbar-container">  
+            <a class="Navbar-brand" href="#">Groit's Theater</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#Home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#OurActors" class="nav-link">Our Actors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Mission" class="nav-link">Mission</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <!--Main LandingSection-->
-    <section class="Main Landing Section">
-        <div><img src="static images/Screenshot 2024-03-01 at 5.23.38 PM.png" alt="background"  class="background">
+ <!--Main Landing Section-->
+
+    <section> 
+        <div class="Landing-Container">
+            <div class="Hero-img">
+                <img src="static images/Screenshot 2024-03-01 at 5.23.38 PM.png" alt="background" style="width:100%">
+                <div class="hero-text"><h2>Featured Shows</h2> </div>
+            </div>    
         </div>
-        <h1 class="Featured-Shows">Featured Shows</h1>
     </section>
 
-    <!--Upcoming Shows Section-->    
-    <section class="Upcoming-Shows">
-        
-        <div class="title-bar">
-            <div class="Show-List"> <h1 class="header-text">April 2024</h1> </div> </div>
-            <div class="Show">
-                <div class="Show-Info">
-                    <div class="photo"><a href="#"> <img src="static images/a-raisin-in-the-sun-theater-1.png" alt="a-raisin-in-the-sun"></a></div>
-                <div class="Show-text">
-                    <div class="Show-Title"><h2>A Raisin In The Sun</h2></div>
-                    <div class="Show-Date"><h3>April 6, 2024 - March 20, 2024 </h3> </div>
-                    <div class="Show-Price"><h4>$75.00 per Ticket</h4></div>
-                    <div class="Show-Location"><h5>Griot Theater</h5></div>
-                    <div class="Show-Address"><h6>236 State Street, Chicago, IL</h6> </div>
-                </div>
+    <!--Featured Shows Section-->  
+
+        <!--Month Selector-->  
+
+<section class="Featured-Shows-Month-Selector">
+    <div class="month-pagination">
+        <a href="#">January</a>
+        <a href="#">March</a>
+        <a class="active" href="#">April</a>
+        <a href="#">May</a>
+        <a href="#">June</a>
+        <a href="#">July</a>
+        <a href="#">August</a>
+        <a href="#">September</a>
+        <a href="#">October</a>
+        <a href="#">November</a>
+        <a href="#">December</a>
+    </div>
+ </section>
+            
+    <!-- Featured Shows -->
+<section class="Featured-Show-List">
+    <div class="FeaturedShow-flex-container">
+        <div class="featured-flex-item"><img src="static images/a-raisin-in-the-sun-theater-1.png" alt="a-raisin-in-the-sun" id="a-raisin-in-the-sun-photo"></div>
+        <div class="featured-flex-item">
+            <a class="Show-Title"><h2>A Raisin In The Sun</h2></a>
+            <a class="Show-Date"><p>April 6, 2024 - March 20, 2024 </p> </a>
+            <a class="Show-Location"><p>Griot Theater<p></a>
+            <a class="Show-Location2"><p> 236 State Street </p><p>Chicago, IL</p></a>
+            <a class="Show-Price"><h5>$75.00 per Ticket</h5></a>
         </div>
-            <div class="ReadMore">
-                <div class="ReadMore-Button"> <button type="submit"> Read More</button></div>
-            </div>
-        </div>
-    </section>
+        <div class="featured-flex-item"><button type="submit" id="read-more"> Read More</button></a></div>
+    </div>
+</section>
 
     <!-- Footer -->
+
     <footer>
-        <div class="flexbox-Container">
-            <div class= "flexbox-item flexbox-item1"> 
-                <iframe frameborder="0" width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvWLdMaMsDogR1d-0f8Pq3_c&key=AIzaSyB9Gdyg6jXB-owZOTSq3l_wwn92AoOW0QQ"place_id referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <div class="flexbox-item Info">
-                <div class="foothead">Info</div>
-                <div class="address"> 
-                    <a href="#"><p class="address-symbol"></p> <i class='fas fa-map-marker-alt' style='font-size:36px'></i></p> </a>
-                </div>
-
-            </div> 
-                
-            <div class="flexbox-item Shows"></div>
-            <div class="flexbox-item Social"></div>
-
+        <div class="Footer-Grid-Container">
+            <div class="footer-grid-item1" id="Map">
+                <iframe frameborder="0" width="300" height="250" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvWLdMaMsDogR1d-0f8Pq3_c&key=AIzaSyB9Gdyg6jXB-owZOTSq3l_wwn92AoOW0QQ"place_id referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="footer" id="foot-header">Info
+                    <div class="footer-grid-item">
+                        <ul class="footer-list">
+                            <li class="foot-list"><i class='fas fa-map-marker-alt'><a href="#" class="address-symbol">Chicago, Il 60611 United States</a></i></li>
+                            <li class="foot-list"><i class='fa-solid fa-envelope'><a href="#" class="email">example@example.com</i></a></li>
+                            <li class="foot-list"><i class='fa-duotone fa-phone-volume'><a href="#" class="phone">900-867-5309</i></a></li>
+                        </ul>
+            </div>    
+            <div class="footer-grid-item2" id="foot-header">Shows
+                <ul class="footer-list">
+                    <li class="foot-list">The Piano Lesson</li>
+                    <li class="foot-list">A Raisin In The Sun</li>
+                    <li class="foot-list">The Color Purple</li>
+                    <li class="foot-list">Fame</li>
+                </ul>
             </div>
-        </div>
-
+            <div class="footer-grid-item3" id="foot-header"> Social 
+                <ul class="footer-list">
+                    <li class="foot-list"><a href="#" class="fa fa-twitter">Twitter</a></li>
+                    <li class="foot-list"><a href="#" class="fa fa-facebook">Facebook</li>
+                    <li class="foot-list"><a href="#" class="fa fa-instagram">Instagram</a></li>
+                    <li class="foot-list"><a href="#" class="fa fa-youtube">YouTube</a></li> 
+                </ul>
     </footer>
 </body>
 </html>
