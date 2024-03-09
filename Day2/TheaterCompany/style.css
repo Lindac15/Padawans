@@ -149,6 +149,17 @@ a:hover {
     background-origin: padding-box;
 }
 
+#Featured-Show-Header {
+    text-align: center;
+    font-weight: 600;
+    background-color: aqua;
+    border: 10px black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
 .featured-show-list {
     grid-template-areas: calc(3);
 }
@@ -212,32 +223,55 @@ a:hover {
     content: center;
 }
 
-
-#read-more {
-    display: flex;
-    background-color: lightcoral;
-    border: 1px solid li;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    font-size: 1.5em;
-    padding: 12px 30px;
-    max-block-size: 1.6em;
+.footer {
+    background-color: black;
+    margin-bottom: 10px;
+    overflow: auto; 
+    width: 100%
 }
 
-/*footer
-
-#col1, 
-#col2, 
-#col3 {
+div#column1 {
+    display: inline;
+    color: black;
+    margin:10px;
+    padding: 10px;;
+    width: 350 px;
     float: left;
-    width: 320px;
-    padding: 0px 40px 0px 40px;
 }
 
-.row {
-    display: table;
-    clea: both;
+div#column2{
+    float: left;
+    color: whitesmoke;
+    margin: 10px 13px;
+    padding: 10px;
+    width: 220px;
+    display: inline;
+    position: relative;
+
+} 
+
+
+div#column3{
+    display: inline;
+    position: relative;
+    color: whitesmoke;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    width: 220px;
+    float: left;
 }
 
+div#column4 {
+    display: inline;
+    position: relative;
+    color: whitesmoke;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;;
+    width: 220px;
+    float: left;
+}
+.footer { 
+    background-color: black;
+    text-align: left;
+    font-weight: lighter;
+}
