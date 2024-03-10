@@ -3,23 +3,37 @@ body {
     height: 100%;
   }
   
-  .form-signin {
-    max-width: 330px;
-    padding: 1rem;
-  }
-  
-  .form-signin .form-floating:focus-within {
-    z-index: 2;
-  }
-  
-  .form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  
-  .form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
+.card-img-top{
+  border: 20%;
+}
+
+#forgot {
+  font-size: smaller;
+  margin-top: 10px;
+}
+
+
+#create {
+  background-color:#00A400;
+}
+
+.container {
+  background-color: rgb(235, 235, 235);
+ min-height: 600px;
+ min-width: 100%;
+}
+
+h1 {
+  margin-top: 90px;
+  font-weight: 700;
+}
+
+#connect {
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#left {
+  margin-left: 90px;
+  margin-top: 50px          ;
+}
